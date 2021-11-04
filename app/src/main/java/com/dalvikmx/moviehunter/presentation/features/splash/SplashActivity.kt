@@ -1,5 +1,6 @@
 package com.dalvikmx.moviehunter.presentation.features.splash
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -14,6 +15,7 @@ import com.dalvikmx.moviehunter.utilities.extensions.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 
+@SuppressLint("CustomSplashScreen")
 @AndroidEntryPoint
 class SplashActivity: BaseActivity() {
 

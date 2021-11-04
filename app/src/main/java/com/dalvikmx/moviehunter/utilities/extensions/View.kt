@@ -2,15 +2,11 @@ package com.dalvikmx.moviehunter.utilities.extensions
 
 import android.app.Service
 import android.content.Context
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
-import androidx.annotation.LayoutRes
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -18,7 +14,6 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.dalvikmx.moviehunter.data.models.containers.MovieResponse
 import com.dalvikmx.moviehunter.presentation.features.billboard.BillboardViewModel
-import com.dalvikmx.moviehunter.presentation.features.billboard.adapter.GridItemDecoration
 import com.dalvikmx.moviehunter.presentation.features.billboard.adapter.MovieAdapter
 import com.dalvikmx.moviehunter.utilities.ImageUtils.getPlaceHolder
 import com.dalvikmx.moviehunter.utilities.SingleEvent
@@ -31,9 +26,6 @@ fun View.show() {
 fun View.invisible() {
     this.visibility = View.GONE
 }
-
-fun ViewGroup.inflate(@LayoutRes layoutRes: Int): View =
-    LayoutInflater.from(context).inflate(layoutRes, this, false)
 
 fun ImageView.loadRoundedImageFromUrl(context: Context, url: String?) {
     url?.run {
@@ -76,7 +68,7 @@ fun View.setupSnackbar(
     lifecycleOwner: LifecycleOwner,
     snackbarEvent: LiveData<SingleEvent<Any>>,
     timeLength: Int) {
-    snackbarEvent.observe(lifecycleOwner, Observer { event ->
+    snackbarEvent.observe(lifecycleOwner, { event ->
         event.getContentIfNotHandled()?.let {
             when (it) {
                 is String -> {
