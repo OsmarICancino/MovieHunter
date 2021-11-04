@@ -18,6 +18,9 @@
         <item name="windowSplashScreenBackground">@color/purple_500</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
         <item name="postSplashScreenTheme">@style/Theme.MovieHunter</item>
+        <item name="android:statusBarColor">#8F0505</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="SplashTheme" parent="Theme.MovieHunter">

@@ -52,6 +52,7 @@ class BillboardActivity : BaseActivity() {
                         billboardRecycler.loadBillboard(this@BillboardActivity, viewModel, this)
                         billboardRecycler.show()
                         progressView.invisible()
+                        errorMessage.invisible()
                     }
                 }
                 is Resource.DataError -> {
