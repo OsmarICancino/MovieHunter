@@ -33,6 +33,7 @@ const val SPACE_PIXELS = 10
 class BillboardActivity : BaseActivity() {
 
     private val viewModel: BillboardViewModel by viewModels()
+    private var contentLoaded = false
 
     private val binding by viewBinding(
         ActivityMainBinding::inflate
@@ -49,6 +50,7 @@ class BillboardActivity : BaseActivity() {
                 is Resource.Loading -> progressView.show()
                 is Resource.Success -> status.data?.let {
                     it.results?.run {
+                        contentLoaded = this.isNotEmpty()
                         billboardRecycler.loadBillboard(this@BillboardActivity, viewModel, this)
                         billboardRecycler.show()
                         progressView.invisible()
@@ -56,7 +58,7 @@ class BillboardActivity : BaseActivity() {
                     }
                 }
                 is Resource.DataError -> {
-                    errorMessage.show()
+                    if (!contentLoaded) errorMessage.show()
                     progressView.invisible()
                     status.errorCode?.let { viewModel.showMessage(it) }
                 }
