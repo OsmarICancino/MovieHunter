@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieHunter</string>
+    <string name="internet_error">Please check your internet connection</string>
+    <string name="network_error">Network error, could get data, please try again!</string>
+    <string name="temporal_time">120 min</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="high_audience">High Audience</string>
+    <string name="movie_hunter_title">.:: Movie Hunter ::.</string>
+    <string name="general_error">Sorry, an error has occurred, please try again!</string>
+</resources>

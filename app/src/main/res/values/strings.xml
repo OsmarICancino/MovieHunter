@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieHunter</string>
+    <string name="internet_error">Por favor revisa tu conexión a internet e intenta nuevamente.</string>
+    <string name="network_error">Tuvimos problemas para recuperar la informacióin, intenta nuevamente.</string>
+    <string name="temporal_time">120 min</string>
+    <string name="most_popular">Más Populares</string>
+    <string name="high_audience">Mayor audencia</string>
+    <string name="movie_hunter_title">.:: Movie Hunter ::.</string>
+    <string name="general_error">Ha ocurrido un error, ¡por favor intenta nuevamente!</string>
+</resources>

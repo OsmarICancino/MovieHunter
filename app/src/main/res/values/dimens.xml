@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_bottom_nav_bar">56dp</dimen>
+    <dimen name="padding_billboard">4dp</dimen>
+    <dimen name="trailer_height">200dp</dimen>
+    <dimen name="toolbar_header_height">100dp</dimen>
+    <dimen name="padding_toolbar">10dp</dimen>
+</resources>

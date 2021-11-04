@@ -1,0 +1,408 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "id": 580489,
+      "original_language": "en",
+      "original_title": "Venom: Let There Be Carnage",
+      "overview": "Eddie Brock (Tom Hardy) y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte (Woody Harrelson) se infecta con un simbionte propio.",
+      "popularity": 6121.117,
+      "poster_path": "/2jVVDtDaeMxmcvrz2SNyhMcYtWc.jpg",
+      "release_date": "2021-09-30",
+      "title": "Venom: Habrá Matanza",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 1452
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18,
+        878
+      ],
+      "id": 438631,
+      "original_language": "en",
+      "original_title": "Dune",
+      "overview": "El hijo de una familia noble trata de vengarse de la muerte de su padre al mismo tiempo que salva un planeta rico en especias que se le encomienda proteger. Nueva adaptación al cine de las novelas de Frank Herbert, que ya fueron trasladadas a la gran pantalla por David Lynch en 1984.",
+      "popularity": 4893.62,
+      "poster_path": "/m6XWQpT0biTpe5wBGWd60RXmtEX.jpg",
+      "release_date": "2021-09-15",
+      "title": "Dune",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 3208
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tDYwYktjFmpj92S2Qn4T3BcRgL.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 610253,
+      "original_language": "en",
+      "original_title": "Halloween Kills",
+      "overview": "Minutos después de que Laurie Strode, su hija Karen y su nieta Allyson dejaran al despiadado asesino Michael Myers encerrado y ardiendo en el sótano, Laurie es llevada de urgencia al hospital con heridas que ponen en peligro su vida, creyendo haber acabado por fin con quien ha convertido su vida en un infierno. Pero cuando Michael consigue liberarse de la trampa de Laurie, reinicia su ritual de baño de sangre. Mientras Laurie lucha contra su dolor y se prepara para defenderse de él, inspira a toda la población de Haddonfield a rebelarse contra su imparable monstruo. Las Strode se unen a un grupo de supervivientes de la primera masacre de Michael quienes deciden hacer justicia por su propia mano y forman una patrulla ciudadana con el objetivo de cazar a Michael de una vez por todas.",
+      "popularity": 2223.218,
+      "poster_path": "/j1Jf5OCpjCDBCp4K7Nnh8JlvNUJ.jpg",
+      "release_date": "2021-10-14",
+      "title": "Halloween Kills",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 1012
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+      "genre_ids": [
+        35,
+        28,
+        12,
+        878
+      ],
+      "id": 550988,
+      "original_language": "en",
+      "original_title": "Free Guy",
+      "overview": "Guy trabaja como cajero de un banco, y es un tipo alegre y solitario al que nada la amarga el día. Incluso si le utilizan como rehén durante un atraco a su banco, él sigue sonriendo como si nada. Pero un día se da cuenta de que Free City no es exactamente la ciudad que él creía. Guy va a descubrir que en realidad es un personaje no jugable dentro de un brutal videojuego.",
+      "popularity": 2334.623,
+      "poster_path": "/suaooqn1Mnv60V19MoGxneMupJs.jpg",
+      "release_date": "2021-08-11",
+      "title": "Free Guy",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 3326
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
+      "genre_ids": [
+        80,
+        28,
+        53
+      ],
+      "id": 630004,
+      "original_language": "en",
+      "original_title": "The Vault",
+      "overview": "Hay un banco completamente distinto a cualquier otro, absolutamente inexpugnable. Nadie ha podido robar ese banco, no existen planos ni datos, y nadie sabe de qué manera se ha construido la cámara acorazada de su interior. El ingeniero Thom Laybrick no tiene miedo a nada, lo único que piensa es en entrar en esa cámara acorazada y robar un misterioso objeto que hay en su interior. Un objeto que sólo estará ahí durante 10 días. Durante este tiempo, una esperadísima final de fútbol se celebrará en España, por lo que Laybrick tendrá una oportunidad de oro para entrar en el banco sin que nadie lo vea.",
+      "popularity": 1683.349,
+      "poster_path": "/mNfCgIIPo1efV4ACRL1tqd5bLrd.jpg",
+      "release_date": "2021-03-03",
+      "title": "Way Down",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 376
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+      "genre_ids": [
+        28,
+        12
+      ],
+      "id": 568620,
+      "original_language": "en",
+      "original_title": "Snake Eyes: G.I. Joe Origins",
+      "overview": "G.I. JOE: Snake Eyes es protagonizada por Henry Golding. Snake Eyes es un solitario y tenaz guerrero que se une a al antiguo clan japonés de los Arashikage luego de salvarle la vida al heredero del clan. Al llegar a Japón, los Arashikage le enseñan a Snake Eyes los caminos del guerrero ninja y le dan algo que siempre quiso tener: un hogar. Pero, al revelarse los secretos sobre su pasado, pondrán a prueba el honor y la lealtad de Snake Eyes, incluso si eso significa perder la confianza de los más cercanos a él.",
+      "popularity": 1725.203,
+      "poster_path": "/paU2I3oEvXdj0UcELlQcwC360rZ.jpg",
+      "release_date": "2021-07-22",
+      "title": "Snake Eyes: El origen",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 764
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ],
+      "id": 639721,
+      "original_language": "en",
+      "original_title": "The Addams Family 2",
+      "overview": "Con la esperanza de acercarse como familia, Gómez, Morticia y el resto del clan Addams se embarcan en un aventurero viaje por carretera en una horrenda y gigantesca caravana.",
+      "popularity": 1618.449,
+      "poster_path": "/qetczjArlkPb4EnB6ygyvgbYY2l.jpg",
+      "release_date": "2021-10-01",
+      "title": "La familia Addams 2: La gran escapada",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 495
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "id": 335983,
+      "original_language": "en",
+      "original_title": "Venom",
+      "overview": "Eddie Brock (Tom Hardy) es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida. Esta fundación, dirigida por el eminente científico Carlton Drake (Riz Ahmed), está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes. Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte. Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer. Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.",
+      "popularity": 1568.261,
+      "poster_path": "/jMBTJQiHAyGlZR05J2sq5coA6ew.jpg",
+      "release_date": "2018-09-28",
+      "title": "Venom",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 12060
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/askg3SMvhqEl4OL52YuvdtY40Yb.jpg",
+      "genre_ids": [
+        10751,
+        16,
+        14,
+        10402,
+        35,
+        12
+      ],
+      "id": 354912,
+      "original_language": "en",
+      "original_title": "Coco",
+      "overview": "Miguel es un joven con el sueño de convertirse en leyenda de la música a pesar de la prohibición de su familia. Su pasión le llevará a adentrarse en la \"Tierra de los Muertos\" para conocer su verdadero legado familiar.",
+      "popularity": 1916.332,
+      "poster_path": "/lhXiY2xyEFUfJLyhSUz4bqyUmsD.jpg",
+      "release_date": "2017-10-27",
+      "title": "Coco",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 14700
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4O40vu2KOgnFfxvrZgzBG6havQ.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 645788,
+      "original_language": "en",
+      "original_title": "The Protégé",
+      "overview": "Un hacker y sus socios roban millones de dólares accidentalmente a un jefe del crimen, y se verán obligados a esconderse para evitar las consecuencias.",
+      "popularity": 1473.813,
+      "poster_path": "/9tKazNaH5RAtP9kmUAt9ou5QW1f.jpg",
+      "release_date": "2021-08-19",
+      "title": "La protegida",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 314
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1yJ8wBmWyEM24UFUSDaRHJFMPPL.jpg",
+      "genre_ids": [
+        28,
+        35,
+        53,
+        27
+      ],
+      "id": 760747,
+      "original_language": "no",
+      "original_title": "I onde dager",
+      "overview": "A Lars (Aksel Hennie) y Lisa (Noomi Rapace) se les acabó el amor que los unió en un principio. Ahora, luchan por mantener su matrimonio y sus ambiciones. La carrera de Lars como director se ha estancado en las telenovelas y Lisa no ha conseguido ningún papel desde hace años. Lars se siente ignorado, sospecha que lo están engañando y está pasando por dificultades económicas. Lisa cree que Lars es un cobarde egocéntrico que se ha echado a perder. Nada en sus vidas ha acabado como pensaban; mucho menos su matrimonio. Es por eso por lo que un viaje de fin de semana a una cabaña familiar en el bosque parece brindarles una oportunidad para deshacerse del otro. Para siempre.",
+      "popularity": 1318.574,
+      "poster_path": "/kbqXenY9fKKOufi4Lzttz7QXGnZ.jpg",
+      "release_date": "2021-07-30",
+      "title": "El viaje",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 90
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sjeEHzxdDrtMTHQwARi4UJ4NXN7.jpg",
+      "genre_ids": [
+        878,
+        53,
+        9648
+      ],
+      "id": 675319,
+      "original_language": "en",
+      "original_title": "Zone 414",
+      "overview": "En un futuro cercano, en una colonia de robots de última generación, el creador de la colonia contrata a un investigador privado para llevar a casa a su hija desaparecida.",
+      "popularity": 1180.932,
+      "poster_path": "/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
+      "release_date": "2021-09-03",
+      "title": "Zona 414",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 76
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
+      "genre_ids": [
+        14,
+        12,
+        35
+      ],
+      "id": 589754,
+      "original_language": "ru",
+      "original_title": "Последний богатырь: Корень зла",
+      "overview": "Belogorie vive un momento de paz y tranquilidad. El mal fue vencido e Ivan está disfrutando de su fama junto a su familia, sus amigos y el maravilloso mundo moderno que le ayuda a vivir de manera confortable. Por suerte, tiene una espada mágica para pasar de un mundo a otro, para coger algunas cosas de vez en cuando. Pero cuando el mal reaparece y la existencia del mundo mágico está en peligro, Ivan tendrá que enfrentarse a los enemigos para que la paz regrese a Belogorie.",
+      "popularity": 1156.745,
+      "poster_path": "/fXjYpt5VfShntmwieXtUli8r1My.jpg",
+      "release_date": "2021-01-01",
+      "title": "El último guerrero. Las raíces del mal",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 62
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ],
+      "id": 703771,
+      "original_language": "en",
+      "original_title": "Deathstroke: Knights & Dragons - The Movie",
+      "overview": "Hace diez años, Slade Wilson, alias el súper asesino llamado Deathstroke, cometió un trágico error y su esposa e hijo pagaron un precio terrible. Ahora, una década después, la familia de Wilson está amenazada una vez más por el asesino Chacal y los terroristas de H.IV.E. ¿Puede Deathstroke expiar los pecados del pasado o su familia pagará el precio máximo?",
+      "popularity": 1097.881,
+      "poster_path": "/nCJGThrH249sLUAzIS80xM7BEKz.jpg",
+      "release_date": "2020-08-04",
+      "title": "Deathstroke: Caballeros y Dragones",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 290
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7h5WAPAcUzOWpp2jrwHBB48790j.jpg",
+      "genre_ids": [
+        16,
+        28
+      ],
+      "id": 843241,
+      "original_language": "ja",
+      "original_title": "劇場版 七つの大罪 光に呪われし者たち",
+      "overview": "Con la ayuda del \"Dragón Sin of Wrath\" Meliodas y los peores rebeldes de la historia, los Siete Pecados Capitales, la \"Guerra Santa\", en la que cuatro razas, incluyendo Humanos, Diosas, Hadas y Gigantes lucharon contra los Demonios, finalmente se sobre. A costa de la vida de Escanor \"El pecado del orgullo del león\", el Rey Demonio fue derrotado y el mundo recuperó la paz. Después de eso, cada uno de los pecados toma su propio camino.",
+      "popularity": 1168.899,
+      "poster_path": "/gtiNyP9BoQmPzjeDhvofUtUxpJV.jpg",
+      "release_date": "2021-07-02",
+      "title": "The Seven Deadly Sins: La maldicion de la luz",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 203
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 566525,
+      "original_language": "en",
+      "original_title": "Shang-Chi and the Legend of the Ten Rings",
+      "overview": "Shang-Chi debe enfrentarse al pasado que pensó que había dejado atrás cuando se ve atraído por la red de la misteriosa organización de los Diez Anillos.",
+      "popularity": 1158.567,
+      "poster_path": "/9VqajJXm29uprSaxOcEh7O0d6E9.jpg",
+      "release_date": "2021-09-01",
+      "title": "Shang-Chi y la leyenda de los Diez Anillos",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 1374
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5UmoOvOmnCHiJj3TAKVn7uNAKAW.jpg",
+      "genre_ids": [
+        28,
+        35,
+        12
+      ],
+      "id": 772436,
+      "original_language": "es",
+      "original_title": "Matando Cabos 2: La Máscara del Máscara",
+      "overview": "Ante la inesperada muerte de su padre separado -El Máscara- y el posterior robo de su preciosa máscara, Rubén -Mascarita- se verá confrontado con su pasado. Junto a su invencible guardaespaldas Tony \"El Caníbal\" y, un aliado inesperado, sólo tendrá un día para recuperarlo y hacer las paces con la memoria de su padre.",
+      "popularity": 1024.853,
+      "poster_path": "/jxdKa1467pktAILLbfw6kZyQlbW.jpg",
+      "release_date": "2021-10-01",
+      "title": "Matando Cabos 2: La Máscara del Máscara",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 52
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 436969,
+      "original_language": "en",
+      "original_title": "The Suicide Squad",
+      "overview": "Un grupo de super villanos se encuentran encerrados en Belle Reve, una prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos. Para salir de allí harán cualquier cosa, incluso unirse al grupo Task Force X, dedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller. Fuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos.",
+      "popularity": 941.322,
+      "poster_path": "/fPJWlhXA2VXf4MlQ3JenVsz1iba.jpg",
+      "release_date": "2021-07-28",
+      "title": "El escuadrón suicida",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 4608
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ux6gkGSKNFtp2NFYxwYFxVWdnGa.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "id": 874948,
+      "original_language": "tr",
+      "original_title": "Kin",
+      "overview": "Antes de un ascenso, un jefe de policía se ve envuelto en un fatal incidente y descubre un complot alimentado por el rencor que amenaza a sus socios.",
+      "popularity": 893.449,
+      "poster_path": "/jv3LQmsVKkQqVF94cvwHqF05eZz.jpg",
+      "release_date": "2021-10-08",
+      "title": "Rencor",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 744275,
+      "original_language": "en",
+      "original_title": "After We Fell",
+      "overview": "Cuando Tessa toma la decisión más importante de su vida, todo cambia. Los secretos que salen a la luz sobre su familia y la de Hardin ponen en peligro su relación y su futuro juntos. La vida de Tessa empieza a romperse en pedazos y ya nada será como antes. Aunque sabe que Hardin la quiere, estas dos almas perdidas están rodeadas de celos, odio... y perdón. Hasta ahora, el amor era suficiente para mantener su relación a flote, pero ¿de verdad sigue mereciendo la pena?",
+      "popularity": 1035.901,
+      "poster_path": "/dC5iAftPyemqjPZRBjUKPr0ZiQ9.jpg",
+      "release_date": "2021-09-01",
+      "title": "After: almas perdidas",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 609
+    }
+  ],
+  "total_pages": 500,
+  "total_results": 10000
+}

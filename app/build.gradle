@@ -1,0 +1,159 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 31
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+    defaultConfig {
+        applicationId "com.dalvikmx.moviehunter"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "version"
+
+    productFlavors {
+        development {
+            dimension "version"
+            buildConfigField "String", "MOVIES_DB_ENDPOINT", '\"https://api.themoviedb.org/3/\"'
+            buildConfigField "String", "MOVIE_IMAGE_ENDPOINT", '\"https://image.tmdb.org/t/p/\"'
+        }
+        production {
+            dimension "version"
+            buildConfigField "String", "MOVIES_DB_ENDPOINT", '\"https://api.themoviedb.org/3/\"'
+            buildConfigField "String", "MOVIE_IMAGE_ENDPOINT", '\"https://image.tmdb.org/t/p/\"'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    //Enabling debug builds only, unless build is Prod you can build a release type
+    //comment this if you need to debug prod BUT DO NOT COMMIT
+    //Do it at YOUR OWN RISK!
+    variantFilter { variant ->
+        def names = variant.flavors*.name
+        if (variant.buildType.name == 'release' && !names.contains('production')) {
+            variant.setIgnore(true)
+        }
+        if (variant.buildType.name == 'debug' && names.contains('production')) {
+            variant.setIgnore(true)
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+
+    //Widgets
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    // Networking
+    def retrofitVersion = '2.9.0'
+    def okhttp3Version = '4.9.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:$okhttp3Version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3Version"
+
+    //kotlinx
+    implementation "androidx.activity:activity-ktx:1.4.0"
+
+    //AndroidX LifeCycle
+    def lifecycleVersion = '2.4.0'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
+
+    //Glide
+    def glideVersion = '4.11.0'
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+
+    //Hilt
+    def hiltVersion = '2.40'
+    implementation "com.google.dagger:hilt-android:$hiltVersion"
+    kapt "com.google.dagger:hilt-compiler:$hiltVersion"
+
+    //Room
+    def roomVersion = '2.3.0'
+    implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-ktx:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+
+    //KTX
+    implementation 'androidx.core:core-ktx:1.7.0'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    //DateTime
+    implementation 'org.jetbrains.kotlinx:kotlinx-datetime:0.1.1'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    implementation 'com.google.firebase:firebase-config-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    //Splash
+    implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
+
+    //for unit testing
+    testImplementation "org.mockito:mockito-core:3.9.0"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    //UI Testing , AndroidJUnitRunner and JUnit Rules &Espresso dependencies
+    //junit 5
+    def junitVersion = '5.7.0'
+    def mockVersion = '1.10.5'
+    def assertjVersion = '3.19.0'
+    def espressoIntentsVersion = '3.4.0'
+    def coroutinesTestVersion = '1.4.2-native-mt'
+    def coreTestingVersion = '2.1.0'
+    testImplementation "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+    testImplementation "io.mockk:mockk:$mockVersion"
+    androidTestImplementation "org.assertj:assertj-core:$assertjVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$espressoIntentsVersion"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesTestVersion"
+    implementation "androidx.arch.core:core-testing:$coreTestingVersion"
+    implementation "androidx.test.espresso:espresso-idling-resource:$espressoIntentsVersion"
+    implementation "androidx.test.espresso:espresso-contrib:$espressoIntentsVersion"
+
+    def hiltTestingVersion = '2.31.2-alpha'
+    def hiltTestCompilerVersion = '2.35'
+    // For instrumented tests.
+    androidTestImplementation "com.google.dagger:hilt-android-testing:$hiltTestingVersion"
+    kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hiltTestCompilerVersion"
+}

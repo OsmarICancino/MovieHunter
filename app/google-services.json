@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574523935580",
+    "project_id": "moviehunter-7ef42",
+    "storage_bucket": "moviehunter-7ef42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574523935580:android:31ab5747bda1432a940f99",
+        "android_client_info": {
+          "package_name": "com.dalvikmx.moviehunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574523935580-h48uj0m7bp0baqq5vcmbf4re5mq322ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPHi_lp0oJ-vSWQkVd5CN3PWm23gp06U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574523935580-h48uj0m7bp0baqq5vcmbf4re5mq322ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

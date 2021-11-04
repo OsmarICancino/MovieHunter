@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/bg_degraded_reddark.xml" value="0.20234375" />
+        <entry key="app/src/main/res/drawable/header_bg_degraded_bluedark.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/drawable/header_bg_degraded_reddark.xml" value="0.20234375" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.15859375" />
+        <entry key="app/src/main/res/drawable/scrim.xml" value="0.20234375" />
+        <entry key="app/src/main/res/drawable/scrim_invert.xml" value="0.20234375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_movie_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.190234375" />
+        <entry key="app/src/main/res/layout/content_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/movie_detail_header.xml" value="0.190234375" />
+        <entry key="app/src/main/res/layout/movie_item.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/toolbar_component.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/menu/bottom_nav_items.xml" value="0.28203125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.132421875" />
+        <entry key="app/src/main/res/xml/remote_config_defaults.xml" value="0.190234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

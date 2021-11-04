@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        android:background="@color/bottom_navigation_view_color"
+        app:elevation="4dp"
+        app:itemTextAppearanceActive="@style/BottomNavigationTab"
+        app:itemTextAppearanceInactive="@style/BottomNavigationTab"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_items" />
+
+</RelativeLayout>
