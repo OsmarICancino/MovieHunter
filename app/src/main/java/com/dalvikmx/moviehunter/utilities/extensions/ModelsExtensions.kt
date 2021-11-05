@@ -4,6 +4,7 @@ import android.content.res.Resources
 import android.util.DisplayMetrics
 import com.dalvikmx.moviehunter.BuildConfig
 import com.dalvikmx.moviehunter.data.models.containers.MovieResponse
+import com.dalvikmx.moviehunter.utilities.Constants.apiKey
 
 private const val POSTER_SIZE_1 = "w92/"
 private const val POSTER_SIZE_2 = "w154/"
@@ -12,8 +13,9 @@ private const val POSTER_SIZE_4 = "w342/"
 private const val POSTER_SIZE_5 = "w500/"
 private const val POSTER_SIZE_6 = "w780/"
 
+
 fun MovieResponse.getUrlImage(): String {
-    return BuildConfig.MOVIE_IMAGE_ENDPOINT + getSizedURL() + posterPath + "?api_key=42f6037782ffa6d0229e74706d3206de"
+    return BuildConfig.MOVIE_IMAGE_ENDPOINT + getSizedURL() + posterPath + "?api_key=$apiKey"
 }
 
 /**
